@@ -1,0 +1,10 @@
+//el codigo se genera en los partials y solo se importa aca
+//importar en este orden para que no se pisen
+/* comentarios con barra doble no se compilan en el css, barra asterisco asterisco barra si */
+
+@import "base";
+
+@import "components/header";
+@import "components/icons";
+
+@import "pages/index";

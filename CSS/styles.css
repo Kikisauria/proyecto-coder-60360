@@ -1,0 +1,12 @@
+/* comentarios con barra doble no se compilan en el css, barra asterisco asterisco barra si */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icon-twitter {
+  background-color: aquamarine;
+}
+
+/*# sourceMappingURL=styles.css.map */
