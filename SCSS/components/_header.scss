@@ -1,7 +1,10 @@
 header {
-    font-size: 100px;
-    height: 40%;
+    font-size: 30px;
+    height: 10%;
     width: 100%;
     background: linear-gradient(to right, #D0ABE0, #8CCFA5, #E649A7);
-    text-shadow: 10px 10px 10px ;
+    
+    .navbar ul {
+        gap: 1rem;
+    }
 }
