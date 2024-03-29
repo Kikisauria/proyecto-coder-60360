@@ -1,0 +1,15 @@
+.footer-container {
+    background-color: map-get($paleta , "morado" );
+padding-top: 1em;
+color: white;
+
+a {
+    color: map-get($paleta , "azulbebe" );
+}
+
+a:hover {
+    color: map-get($paleta , "aguamarina");
+    text-decoration: underline;
+}
+
+}

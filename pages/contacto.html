@@ -16,25 +16,29 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- Integración CSS -->
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <!-- Integración css -->
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Nosotravels | Contacto</title>
 </head>
 
 <body>
-    <header class="container">
+    <header class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <!-- Logo para escritorio -->
                     <div class="logo d-none d-lg-block">
-                        <img class="container" src="/img/logo-desktop.png" alt="Logo Nosotravels" width="100px"
-                            height="100px">
+                        <a href="/index.html">
+                            <img class="container" src="/img/logo-desktop.png" alt="Logo Nosotravels" width="100px"
+                                height="100px">
+                        </a>
                     </div>
                     <!-- Logo para mobile -->
                     <div class="logo d-block d-lg-none">
-                        <img class="container" src="/img/logo-mobile.png" alt="Logo Nosotravels Mobile" width="100px"
-                            height="100px">
+                        <a href="/index.html">
+                            <img class="container" src="/img/logo-mobile.png" alt="Logo Nosotravels Mobile"
+                                width="100px" height="100px">
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -67,7 +71,7 @@
                         Buscar
                     </button>
 
-                    
+
                 </form>
             </div>
             </div>
@@ -79,30 +83,35 @@
         <section class="container-fluid section-container text-center">
             <div class="row align-items-md-center">
                 <div class="col-12 col-md-6 ps-md-5">
-                    <h2 class="c-verde text-md-center">Contacto</h2>
+                    <h2 class="c-morado text-md-center">Contacto</h2>
                     <p class="lead pt-md-4">¿Dudas? Comunicate con nosotras:</p>
                     <p>E-mail: nosotravels@ventas.com</p>
                     <p>Teléfono: (+54) 9 3446 308 614</p>
                     <p>Dirección: Montevideo 426, Gualeguaychú, Argentina</p>
                 </div>
                 <div class="col-12 col-md-6 order-md-first">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1672.7915876969496!2d-58.51523514358399!3d-33.014763154677695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95baa82dd8837255%3A0x9fceff8ee5898425!2sMontevideo%20426%2C%20Gualeguaych%C3%BA%2C%20Entre%20R%C3%ADos%2C%20Argentina!5e0!3m2!1ses-419!2sbr!4v1711574826726!5m2!1ses-419!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1672.7915876969496!2d-58.51523514358399!3d-33.014763154677695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95baa82dd8837255%3A0x9fceff8ee5898425!2sMontevideo%20426%2C%20Gualeguaych%C3%BA%2C%20Entre%20R%C3%ADos%2C%20Argentina!5e0!3m2!1ses-419!2sbr!4v1711574826726!5m2!1ses-419!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
         <!-- Whatsapp -->
         <section class="container-fluid section-whatsapp text-center">
             <div class="row gap-3 px-4">
-                <h2>Quiero que me contacten</h2>
+                <h3>Quiero que me contacten</h3>
                 <p> No querés esperar? </p>
                 <p>Tenemos atención personalizada por Whatsapp</p>
-                <p><a href="https://wa.me/5493446308614?text=Quiero%20información%20sobre%20los%20viajes%20con%20Nosotravels/" class="btn btn-nosotravels">Mandanos un mensaje</a></p>
+                <p><a href="https://wa.me/5493446308614?text=Quiero%20información%20sobre%20los%20viajes%20con%20Nosotravels"
+                        class="btn btn-nosotravels">Mandanos un mensaje</a></p>
             </div>
         </section>
         <!-- Formulario -->
         <section class="container-fluid section-contacto text-center my-3 py-5">
-            <h2 class="c-verde pb-3">Suscribite a nuestro newsletter</h2>
-            <p>Para enterarte de nuestras promociones imperdibles. Tranquila, no vamos a enviarte mas de dos o tres mails por semana!</p>
+            <h3 class="c-verde pb-3">Suscribite a nuestro newsletter</h3>
+            <p>Para enterarte de nuestras promociones imperdibles. Tranquila, no vamos a enviarte mas de dos o tres
+                mails por semana!</p>
             <div class="col-12 col-sm-10 col-xl-8 mx-auto">
                 <form action="" method="POST">
                     <!-- input datos -->
@@ -124,14 +133,15 @@
                     <!-- checkbox -->
                     <div class="mb-3 form-check text-start">
                         <input type="checkbox" class="form-check-input" id="check">
-                        <label class="form-check-label" for="exampleCheck1">Manténganme al tanto de novedades y promociones</label>
+                        <label class="form-check-label" for="exampleCheck1">Manténganme al tanto de novedades y
+                            promociones</label>
                     </div>
                     <!-- submit -->
                     <button type="submit" class="btn btn-nosotravels">Enviar</button>
                 </form>
             </div>
     </main>
-    
+
 
 
 
@@ -159,7 +169,7 @@
 
             </div>
             <div class="copyright fst-italic">
-                <span>Copyright Nosotravels 2024. Todos los derechos reservados.</span>
+                <span>Chiara Albertario &copy 2024. Todos los derechos reservados.</span>
             </div>
     </footer>
 

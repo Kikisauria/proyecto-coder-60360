@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 
+/* Paleta de colores hecha con coolors.co */
 header {
-  font-size: 30px;
+  font-size: 2rem;
   height: 10%;
   width: 100%;
   background: linear-gradient(to right, #D0ABE0, #8CCFA5, #E649A7);
@@ -17,6 +18,19 @@ header .navbar ul {
 
 .icon-twitter {
   background-color: aquamarine;
+}
+
+.footer-container {
+  background-color: #84728C;
+  padding-top: 1em;
+  color: white;
+}
+.footer-container a {
+  color: #B8D9C4;
+}
+.footer-container a:hover {
+  color: #8CCFA5;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */
