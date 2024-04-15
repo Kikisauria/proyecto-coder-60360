@@ -6,6 +6,27 @@
 }
 
 /* Paleta de colores hecha con coolors.co */
+body {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 400;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
+}
+
+main {
+  margin: 2em;
+}
+main img {
+  height: auto;
+  max-width: 100%;
+}
+
 header {
   font-size: 2rem;
   height: 10%;
@@ -16,8 +37,11 @@ header .navbar ul {
   gap: 1rem;
 }
 
-.icon-twitter {
-  background-color: aquamarine;
+.a-viajes {
+  margin: 1em 0em;
+  border: 2px solid #D0ABE0;
+  gap: 1em;
+  border-radius: 10px;
 }
 
 .footer-container {

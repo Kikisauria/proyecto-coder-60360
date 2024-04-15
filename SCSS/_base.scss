@@ -15,3 +15,29 @@ $paleta: (
     fucsia: #E649A7,
     );
 
+@mixin fuente($font-name: Palanquin, $font-weight: 400) {
+        font-family: quote($font-name), sans-serif;
+        font-weight: $font-weight;
+}
+
+body {
+    @include fuente();
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        @include fuente(Palanquin, 700)
+    }
+
+}
+
+main {
+    margin: 2em;
+    img {
+    height: auto;
+    max-width: 100%;
+}
+}
+
