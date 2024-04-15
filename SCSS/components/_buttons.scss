@@ -1,0 +1,17 @@
+.btn-nosotravels {
+    color: white;
+    background-color: #84728C;
+    border-color: #D0ABE0;
+
+    &:hover {
+        color: white;
+        background-color: map-get($paleta , "fucsia");
+        border-color: map-get($paleta , "lila");
+    }
+
+    &:active {
+        color: white;
+        background-color: map-get($paleta , "fucsia");
+        border-color: map-get($paleta , "morado");
+    }
+}

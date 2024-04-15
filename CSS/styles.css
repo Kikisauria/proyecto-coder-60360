@@ -38,10 +38,18 @@ header .navbar ul {
 }
 
 .a-viajes {
-  margin: 1em 0em;
-  border: 2px solid #D0ABE0;
-  gap: 1em;
-  border-radius: 10px;
+  border: 1px solid #D0ABE0;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.a-viajes img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .footer-container {
@@ -55,6 +63,43 @@ header .navbar ul {
 .footer-container a:hover {
   color: #8CCFA5;
   text-decoration: underline;
+}
+
+.btn-nosotravels {
+  color: white;
+  background-color: #84728C;
+  border-color: #D0ABE0;
+}
+.btn-nosotravels:hover {
+  color: white;
+  background-color: #E649A7;
+  border-color: #D0ABE0;
+}
+.btn-nosotravels:active {
+  color: white;
+  background-color: #E649A7;
+  border-color: #84728C;
+}
+
+.section p, .section-contacto p, .section-viajes p, .section-whatsapp p, .section-container p {
+  margin: 1rem 0rem;
+}
+.section-container {
+  padding: 2rem 0rem;
+}
+.section-container h1 {
+  font-size: 2.5rem;
+}
+.section-whatsapp {
+  padding: 2rem 1rem;
+  background-color: #B8D9C4;
+}
+.section-viajes {
+  padding: 2rem 1rem;
+  background-color: #D0ABE0;
+}
+.section-contacto {
+  background-color: #84728C;
 }
 
 /*# sourceMappingURL=styles.css.map */

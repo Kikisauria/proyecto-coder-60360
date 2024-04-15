@@ -1,7 +1,16 @@
+
 .a-viajes {
-    margin: 1em 0em;
-    border: 2px solid map-get($paleta , "lila"); 
-gap: 1em;
-border-radius: 10px;
+    border: 1px solid map-get($paleta , "lila");
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.a-viajes img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
