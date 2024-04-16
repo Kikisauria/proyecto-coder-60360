@@ -39,5 +39,9 @@ main {
     height: auto;
     max-width: 100%;
 }
+
+a {
+        color: map-get($paleta , "fucsia");
+}
 }
 

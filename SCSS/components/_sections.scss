@@ -27,10 +27,16 @@
 
         padding: 2rem 1rem;
         background-color: map-get($paleta , "lila");
+        text-align: center;
+        .lista-paises {
+            list-style: none;
+
+        }
 
         @extend .section;
 
     }
+
 
 
     &-contacto {

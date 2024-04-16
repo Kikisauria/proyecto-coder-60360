@@ -26,6 +26,9 @@ main img {
   height: auto;
   max-width: 100%;
 }
+main a {
+  color: #E649A7;
+}
 
 header {
   font-size: 2rem;
@@ -97,6 +100,10 @@ header .navbar ul {
 .section-viajes {
   padding: 2rem 1rem;
   background-color: #D0ABE0;
+  text-align: center;
+}
+.section-viajes .lista-paises {
+  list-style: none;
 }
 .section-contacto {
   background-color: #84728C;
